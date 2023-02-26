@@ -10,17 +10,34 @@
     body {
       background-color: aqua;
     }
+    .nav-color {
+      color: red;
+    }
+    .nav-link {
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #2e2f42;
+    }
   </style>
+  <link rel="stylesheet" href="./css/style.css" />
   <body>
     <header class="header">
       <nav class="header-nav">
-        <a href="#" class="header-logo">Logo</a>
+        <a href="https://developer.mozilla.org/ru/" class="header-logo">Logo</a>
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="./index.html" class="nav-link">MainPage</a>
+            <a href="./index.html" class="nav-link"
+              >Main<span class="nav-color">Page</span></a
+            >
           </li>
           <li class="nav-item"><a href="#" class="nav-link">link</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+          <li class="nav-item">
+            <a href="https://goo.gl/maps/E9rjPTLFoKPxd7Sq8" class="nav-link"
+              >Maps</a
+            >
+          </li>
         </ul>
       </nav>
       <address class="header-address">
@@ -40,5 +57,11 @@
         </a>
       </li>
     </ul>
+    <address class="header-address">
+      <ul>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </address>
   </body>
 </html>
