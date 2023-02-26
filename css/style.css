@@ -1,0 +1,12 @@
+/* Заголовки скрити можна за допомогою паттерну visually-hidden. Для цього таким заголовкам треба додати клас visually-hidden та додати до файлу стилів ось таке правило .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} */
